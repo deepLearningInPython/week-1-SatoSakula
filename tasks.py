@@ -34,7 +34,7 @@ def step(x):
 # -----------------------------------------------
 
 
-def ReLu(arr, cutoff =0):
+def ReLU(arr, cutoff =0):
 
 # Create a copy of input array 
   result = arr.copy()
@@ -64,6 +64,7 @@ def neural_net_layer(matrix_2d, vector_1d):
   multiplied_matrix = np.dot(matrix_2d, vector_1d)
 
 # Apply the ReLu function
+  ReLU = ReLu
   result = ReLu(multiplied_matrix)
 
   return result
