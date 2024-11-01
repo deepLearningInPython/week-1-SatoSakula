@@ -34,7 +34,7 @@ def step(x):
 # -----------------------------------------------
 
 
-def ReLU(arr, cutoff =0):
+def ReLu(arr, cutoff =0):
 
 # Create a copy of input array 
   result = arr.copy()
